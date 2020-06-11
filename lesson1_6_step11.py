@@ -11,8 +11,8 @@ try:
     input1 = browser.find_element_by_css_selector("input.form-control.first[required]")
     input1.send_keys("Ivanus")
 
-    #input2 = browser.find_element_by_css_selector("input.form-control.second[required]")
-    #input2.send_keys("Petrgov")
+    input2 = browser.find_element_by_css_selector("input.form-control.second[required]")
+    input2.send_keys("Petrgov")
 
     input3 = browser.find_element_by_css_selector("input.form-control.third[required]")
     input3.send_keys("Email")
