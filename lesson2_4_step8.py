@@ -17,6 +17,7 @@ def calc(x):
 try:
     # Открыть страницу http://suninjuly.github.io/explicit_wait2.html
     browser.get(link)
+    browser.implicitly_wait(5)
 
     # Дождаться, когда цена дома уменьшится до $100 (ожидание нужно установить не меньше 12 секунд)
 
